@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKING-WORLD</title>
+    <link rel="icon" type="image/x-icon" href="img/hacker.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+   
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="project.html"><img src="img/hooded-skull-hacker-logo-concept-vector-44777540-removebg-preview.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT-US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Let's Hacke The World</h1>
+            <p></p>
+            <a href="" class="hero-btn">visit us to know more</a>
+        </div>
+    </section>
+
+    <!---- course ---->
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>the first thing is to learn.</p>
+
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>White Hat Hacker</h3>
+                <p>A white hat hacker -- or ethical hacker -- is an individual who uses hacking skills to identify security vulnerabilities in hardware, software or networks. However, unlike black hat hackers -- or malicious hackers -- white hat hackers respect the rule of law as it applies to hacking. Many white hat hackers are former black hat hackers. The terms come from old Western movies, where heroes often wore white hats and the bad guys wore black hats.</p>
+            </div>
+            <div class="course-col">
+                <h3>Black Hat Hacker</h3>
+                <p>Black Hat hackers are criminals who break into computer networks with malicious intent. They may also release malware that destroys files, holds computers hostage, or steals passwords, credit card numbers, and other personal information.</p>
+            </div>
+            <div class="course-col">
+                <h3>Gray Hat Hacker</h3>
+                <p>Somewhere between white and black are gray hat hackers. Gray hat hackers enact a blend of both black hat and white hat activities. Gray hat hackers often look for vulnerabilities in a system without the owner's permission or knowledge. If issues are found, they report them to the owner, sometimes requesting a small fee to fix the problem.</p>
+            </div>
+        </div>
+    </section>
+
+<section>
+    <div class="campus">
+        <h1>Images</h1>
+        <p>see how hackers look</p>
+    </div>
+    <div class="row">
+        <div class="campus-col">
+            <Img src="img/360_F_582721229_ilyuVd5g5YWBLtPtQkeFeQBMkgLIRFFl.jpg"></Img>
+            <div class="layer">
+                <h4>White hat hacker</h4>
+            </div>
+        </div>
+        <div class="campus-col">
+            <Img src="img/360_F_579566055_oMPyfy2BzNaCD68bkGpNBlw9aiCgLHRC.jpg"></Img>
+            <div class="layer">
+                <h4>Black hat hacker</h4>
+            </div>
+        </div>
+        <div class="campus-col">
+            <Img src="img/anonymous-hacker-gray-hoodie-concept-hat-hacking-cybersecurity-cybercrime-cyberattack-etc-idea-272445459.jpg"></Img>
+            <div class="layer">
+                <h4>Gray hat hacker</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="bottom">
+        <h6>&copy; copyright 2023-24 </h6>
+
+        <h7>created by basudev</h7>
+    </div>
+</section>
+
+
+<!------JAVASCRIPT FOR TOGGLE MENU------->
+   <script>
+    var navLinks = document.getElementById('navLinks');
+    console.log(navLinks)
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+   </script>
+
+</body>
+</html>
